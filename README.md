@@ -6,7 +6,15 @@ A simple web scrapping using php, guzzle http client and symfony dom parser.
 
 ## Steps to install and run
 
-git clone 
+git clone https://github.com/rahul05ranjan/simpleWebscrap.git
+
+cd simpleWebscrap
+
+composer install
+
+go to htpp://localhost/simpleWebscrap
+
+That's all
 
 # for any quesry contact me
 tweet @rahul05ranjan
