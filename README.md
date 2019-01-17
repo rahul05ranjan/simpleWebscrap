@@ -16,7 +16,7 @@ go to http://localhost/simpleWebscrap
 
 That's all
 
-# for any quesry contact me
+# for any query contact me
 tweet @rahul05ranjan
 
 If it useful press star
