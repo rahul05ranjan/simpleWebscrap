@@ -12,7 +12,7 @@ cd simpleWebscrap
 
 composer install
 
-go to htpp://localhost/simpleWebscrap
+go to http://localhost/simpleWebscrap
 
 That's all
 
