@@ -13,6 +13,7 @@
 	$nodeValues = $crawler->filter('.statusList > li')->each(function (Crawler $node, $i) {
     	$joke = $node->text();
     	$arr = ['joke' => $joke, 'status'	=>	2, 'category'	=>	18, 	'user_id'	=>	25];
-    	echo json_encode($arr);
+    	return $arr;
 	});
+	echo json_encode($nodeValues);
 ?>
