@@ -10,14 +10,9 @@
 
 	$crawler = new Crawler($html);
 
-	// foreach ($crawler as $domElement) {
-	//     var_dump($domElement->nodeName);
-	// }
 	$nodeValues = $crawler->filter('.statusList > li')->each(function (Crawler $node, $i) {
     	$joke = $node->text();
     	$arr = ['joke' => $joke, 'status'	=>	2, 'category'	=>	18, 	'user_id'	=>	25];
-    	echo  "<pre>";
-    	print_r($arr);
+    	echo json_encode($arr);
 	});
-
 ?>
