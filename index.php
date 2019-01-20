@@ -16,8 +16,15 @@
 	$nodeValues = $crawler->filter('.statusList > li')->each(function (Crawler $node, $i) {
     	$joke = $node->text();
     	$arr = ['joke' => $joke, 'status'	=>	2, 'category'	=>	18, 	'user_id'	=>	25];
-    	echo  "<pre>";
+    	//echo  "<pre>";
     	print_r($arr);
 	});
+	/*$host = '192.185.129.96';
+	$conn = mysqli_connect($host, 'gofuglyi_user', '9473002010rkr#', 'gofuglyi_db');
+	if ($conn) {
+		echo "string";
+	}else{
+		echo "No";
+	}*/
 
 ?>
